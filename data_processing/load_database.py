@@ -88,5 +88,5 @@ if __name__ == '__main__':
     with open('ok.json', 'w') as f:
         json.dump(ok, fp=f)
 
-    with open('unfinished.json' ,'w') as f:
+    with open('unfinished.json', 'w') as f:
         json.dump(unfinished, fp=f)
